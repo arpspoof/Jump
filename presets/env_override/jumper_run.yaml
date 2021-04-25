@@ -1,0 +1,9 @@
+algorithm.gamma: 0.95
+algorithm.max_value:
+algorithm.ppo.epoch_size: 8
+env.control_frequency: 30
+model.actor.enable_explore_scheduling: false
+model.actor.std_begin: 0.1
+model.actor.ortho_init_offset: false
+model.actor.normalize_action: true
+vae.enable: false

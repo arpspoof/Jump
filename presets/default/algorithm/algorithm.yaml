@@ -1,0 +1,7 @@
+---
+# discount factor
+gamma: 1.0
+# max number of iterations
+max_iterations: 1000000
+# max possible value
+max_value: 1.0

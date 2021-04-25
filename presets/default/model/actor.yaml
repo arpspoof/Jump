@@ -1,0 +1,10 @@
+---
+normalize_action: false
+use_squashing: false
+std_init: 0.1
+enable_explore_scheduling: true
+std_begin: 0.5
+std_end: 0.1
+anneal_samples: 1.0E+7
+anneal_samples_past: 0.0
+ortho_init_offset: true

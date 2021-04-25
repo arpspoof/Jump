@@ -1,0 +1,4 @@
+algorithm.max_iterations: 2000
+experiment.env: jumper_run2
+env.jumper_run2.angular_v: [-3.0, -3.0, 1.0]
+env.jumper_run2.linear_v_z: -2.4

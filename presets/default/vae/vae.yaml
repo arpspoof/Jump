@@ -1,0 +1,6 @@
+---
+enable: true
+model: 13dim
+latent_dim: 13
+max_offset_norm_begin: 25.0
+max_offset_norm_end: 12.0

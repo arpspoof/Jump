@@ -1,0 +1,14 @@
+---
+runner_sample_size: 4096
+epoch_size: 5
+batch_size: 256
+checkpoint_every_iteration: 100
+test_every_iteration: 100
+clip_threshold: 0.02
+actor_lr: 2.5e-5
+actor_wdecay: 5.0e-4
+actor_momentum: 0.9
+critic_lr: 1.0e-2
+critic_wdecay: 5.0e-4
+critic_momentum: 0.9
+max_grad_norm: 100

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<robot name="bracket">
+  <link name="stick_link">
+	<contact>
+      <lateral_friction value="0.9"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value="5.0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.05 7 0.05" />
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 0.8 0.9"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <!--<origin rpy="0 0 0" xyz="0 0 -5"/>-->
+      <geometry>
+        <box size="0.05 7 0.05" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="zhijia" type="fixed" >
+    <parent link = "stick_link" />
+    <child link="zhijia_link" />
+    <origin rpy = "0 0 0" xyz = "0.05 3 0.000000" />
+  </joint>
+
+  <link name="zhijia_link">
+	<contact>
+      <lateral_friction value="0.9"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value="1.0"/>
+       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.05" />
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 0.8 0.9"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <!--<origin rpy="0 0 0" xyz="0 0 -5"/>-->
+      <geometry>
+        <box size="0.05 0.05 0.05" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

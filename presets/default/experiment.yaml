@@ -1,0 +1,17 @@
+---
+# arbitrary name of the experiment, this will be equal to custom preset name if not specified
+name: 
+# name of the environment, the only option is `deepmimic`
+env:
+# RL algorithm
+algorithm: ppo
+# number of workers used for sample collection, set to `default` to use all available CPU threads
+num_workers: default
+# enable GPU or not
+use_gpu: true
+# path to checkpoint file to resume training, default is `null`
+checkpoint: 
+# whether to record motions at evaluation time
+record_motion: false
+use_timestamp: True
+extra_config:

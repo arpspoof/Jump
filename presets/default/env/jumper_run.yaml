@@ -1,0 +1,6 @@
+motion_file: data/motions/beyond/VC5_sprint__curves_03.txt
+min_t: 0.5
+max_t: 3.35
+speed_multiplier: 1.5
+cut_off: 3.16
+name: jumper_run_p1

@@ -1,0 +1,11 @@
+torch==1.6.0
+numpy==1.19.5
+numba==0.50.0
+munch==2.5.0
+pybullet==2.8.4
+scipy==1.4.1
+matplotlib==3.2.1
+env==0.1.0
+ipython==7.22.0
+PyYAML==5.4.1
+tensorboardX==2.2

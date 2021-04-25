@@ -1,0 +1,6 @@
+---
+server_address: 127.0.0.1
+server_port: 8080
+local_address: 127.0.0.1
+local_port: 8081
+rpc_timeout: 5000

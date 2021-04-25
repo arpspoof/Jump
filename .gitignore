@@ -1,0 +1,7 @@
+__pycache__
+.vs
+.vscode
+build
+pyUnityRenderer
+Kinematic/py
+CMakeSettings.json

@@ -1,0 +1,13 @@
+q_bases: []
+initial_state:
+wall_rotation:
+initial_wall_height: 0.5
+max_wall_height: 2.0
+wall_distance: 1.2
+episode_length: 60
+reward_threshold: 30
+offset_init: 48.0
+offset_end: 15.0
+angv_penalty: 0.02
+vis_offset: 0
+test_time: false

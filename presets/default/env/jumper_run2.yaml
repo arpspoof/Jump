@@ -1,0 +1,8 @@
+angular_v: 
+linear_v_z: 
+reward_threshold: 200
+motion_file: data/motions/beyond/VC5_sprint__curves_03.txt
+min_t: 3.1616667
+max_t: 3.32833
+speed_multiplier: 1.5
+p1_name: jumper_run_p1
